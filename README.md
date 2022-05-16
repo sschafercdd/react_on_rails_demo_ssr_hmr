@@ -1,6 +1,13 @@
 # React on Rails Demo With SSR, HMR fast refresh, and TypeScript
 Each commit demonstrates a step in the [React on Rails Tutorial](https://github.com/shakacode/react_on_rails/blob/master/docs/guides/tutorial.md).
 
+---
+**FORK to upgrade various packages and Docker support**
+1. Use `make shell` to open a Docker shell where you can run `yarn add` and `bundle` commands
+2. Use `make server` to start the server inside a Docker container
+
+---
+
 **UPDATE February 9, 2022: This repo is updated to the latest [shakapacker gem and package](https://github.com/shakacode/shakapacker) v6.1 release and React on Rails v13!**
 
 ---

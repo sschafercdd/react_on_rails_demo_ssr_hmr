@@ -5974,10 +5974,10 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
   integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
-react-on-rails@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-13.0.0.tgz#422da089d896ac03d7077e8fa00dc177e415b154"
-  integrity sha512-MWXxNbD+yLpUoF+Sgg+glJ00GmEntuccOhIoprNcTpRTPA2piBTeGfBIn0D7U7ZDF/FRDZMLIpnmEU4cTeHghg==
+react-on-rails@^13.0.2:
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-13.0.2.tgz#6fdb38b0cbd9e7c8792df1c9e655a90420f15ce5"
+  integrity sha512-FPgpw5/klHXxonOUe2Slp1Enq2qrzI2SGW9MfBvoFFo9yf/Bu6NXIm75Pbeu58fM2kfzgRl23UsWnvEfk+UuUw==
   dependencies:
     "@babel/runtime-corejs3" "^7.12.5"
     concurrently "^5.1.0"
