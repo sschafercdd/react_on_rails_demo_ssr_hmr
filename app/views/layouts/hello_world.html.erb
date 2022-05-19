@@ -3,6 +3,7 @@
   <head>
     <title>ReactOnRailsWithWebpacker</title>
     <%= csrf_meta_tags %>
+    <%= append_javascript_pack_tag 'application' %>
     <%= javascript_pack_tag 'hello-world-bundle' %>
     <%= stylesheet_pack_tag 'hello-world-bundle' %>
   </head>

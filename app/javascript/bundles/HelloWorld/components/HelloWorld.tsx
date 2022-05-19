@@ -5,7 +5,16 @@ import style from './HelloWorld.module.css'
 
 export interface Props {
   name: string
-}
+};
+
+// $(() => {
+//   debugger;
+// });
+
+// $(function() {
+//   debugger;
+//   // $('body').css('background-color', 'red')
+// });
 
 // Note,  you need to declare the type so that ReactOnRails.register has the
 // proper type.

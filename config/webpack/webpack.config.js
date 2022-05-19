@@ -14,6 +14,14 @@ const envSpecificConfig = () => {
 
 const webpackConfiguration = envSpecificConfig()
 
+// webpackConfiguration.module.rules.push({
+//   test: require.resolve('jquery'),
+//   loader: 'expose-loader',
+//   options: {
+//     exposes: ['$', 'jQuery']
+//   }
+// })
+
 // To debug the webpack configuration
 // 1. Uncomment debugger line below
 // 2. Run `bin/webpacker --debug-webpacker`

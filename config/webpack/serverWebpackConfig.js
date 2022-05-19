@@ -10,6 +10,8 @@ const configureServer = () => {
   // Using webpack-merge into an empty object avoids this issue.
   const serverWebpackConfig = commonWebpackConfig()
 
+  console.log(serverWebpackConfig)
+
   // We just want the single server bundle entry
   const serverEntry = {
     'server-bundle': serverWebpackConfig.entry['server-bundle']
